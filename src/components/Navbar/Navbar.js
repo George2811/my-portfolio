@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Navbar.css'
 
 export default function Navbar(props) {
@@ -8,8 +8,8 @@ export default function Navbar(props) {
         <nav class="navbar">
             <div class="container">
                 <div class="navbar__logo">
-                    <p class="navbar__title">
-                        <a href="#">JS</a>
+                    <p class="navbar__title">                        
+                        <span>JS</span>
                     </p>
                 </div>
                 <div class="navbar__menu">

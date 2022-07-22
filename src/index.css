@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root{
-  --white: #FAFAFA;
+  --white: #F6F6F6;
   --black: #0A0A0A;
   --darkBlue:#0A192F;
   --lightBlue: #64FFDA;
@@ -29,8 +29,7 @@ body {
   color: var(--black);
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 a {
@@ -39,4 +38,12 @@ a {
 }
 a:hover {
   color: var(--lightBlue);
+}
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+p {
+  font-size: 20px;
+  font-weight: lighter;
 }

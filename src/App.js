@@ -3,12 +3,16 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import ContadorHooks from './components/ContadorHooks';
 import Cover from './components/Cover/Cover';
+import About from './components/About/About';
 
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
       <Cover></Cover>
+      <About></About>
+      <hr></hr>
+      <About></About>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

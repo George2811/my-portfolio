@@ -25,7 +25,12 @@
 .navbar__title {
     font-size: 24px;
 }
-
+.navbar__title span{
+    color: var(--white);
+}
+.navbar__title span:hover{
+    color: var(--lightBlue);
+}
 .navbar__title::before {
     content: "<";
     color:var(--lightBlue);
@@ -67,6 +72,7 @@
 @media (max-width: 991px) {
     .navbar__menu {
       display: flex;
+      color: var(--white);
     }
   
     .navbar__links {
