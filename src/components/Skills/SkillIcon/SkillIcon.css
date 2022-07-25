@@ -1,0 +1,25 @@
+#logo-holder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}
+
+#logo-holder .image, #logo-holder .text {
+    transition: opacity 0.4s ease-in-out;
+}
+#logo-holder .text {
+    position:absolute;
+    opacity:0;
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+#logo-holder:hover .image {
+    opacity:0;
+}
+#logo-holder:hover .text {
+    opacity:1;
+}

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import ContadorHooks from './components/ContadorHooks';
 import Cover from './components/Cover/Cover';
 import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Cover></Cover>
       <About></About>
       <hr></hr>
-      <About></About>
+      <Skills></Skills>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
