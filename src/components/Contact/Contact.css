@@ -1,0 +1,24 @@
+.contact__section {
+    width: 70%;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__title {
+    text-align: start;
+    margin: 3rem 0;
+    width: 100%;
+}
+.contact__description {
+    text-align: start;
+    width: 100%;
+}
+.contact__set {
+    margin: 3rem 0;
+}
+.contact__icon {
+    font-size: 2.5rem;
+    margin: 0 2rem;
+}
