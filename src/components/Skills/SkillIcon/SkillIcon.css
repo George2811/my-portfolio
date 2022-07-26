@@ -3,10 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
-    height: 55px;
+    width: 80px;
+    height: 80px;
 }
-
 #logo-holder .image, #logo-holder .text {
     transition: opacity 0.4s ease-in-out;
 }
@@ -15,7 +14,6 @@
     opacity:0;
     font-size: 18px;
     font-weight: bold;
-    color: brown;
 }
 #logo-holder:hover .image {
     opacity:0;
@@ -23,3 +21,16 @@
 #logo-holder:hover .text {
     opacity:1;
 }
+
+
+.html {color: #FF6B00;}
+.css {color: #2164E7;}
+.javascript {color: #FFCA0D;}
+.flutter {color: #17BADE;}
+.react {color: #203C64;}
+.vue-js {color: #64C987;}
+.net-core {color: #6716B2;}
+.springboot {color: #67A42B;}
+.mysql {color: #00796B;}
+.git {color: #DA6900;}
+.figma {color: #0F151A;}
