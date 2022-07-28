@@ -2,7 +2,17 @@
     "projects": [
         {
             "name": "PeruStars",
-            "img": "../../../../public/projects/perustars1.png"
+            "img_bg": "https://i.postimg.cc/Hk3knfVQ/Screenshot-from-2022-07-27-22-33-04.png",
+            "technologies": [
+
+            ],
+            "website": "",
+            "github": "",
+            "details": true,
+            "description": "",
+            "imgs": [
+
+            ]
         }
     ]
 }

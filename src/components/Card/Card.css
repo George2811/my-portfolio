@@ -1,5 +1,6 @@
 .card {
-    /*background-image: url('../../../../public/projects/perustars1.png');*/
+    /*background-image: url('/src/assets/projects/perustars1.png');*/
+    /*background-image: url('https://i.postimg.cc/15ZBqHzW/Screenshot-from-2022-07-27-22-33-04.png');*/
     width: 35rem;
     height: 18rem;
     background-size: cover;
@@ -47,9 +48,16 @@
 
 .access__web {
     background-color: var(--lightBlue);
+    color: var(--black);
+}
+.access__web:hover{
+    color: var(--black);
 }
 .access__repo {
     background-color: var(--black);
+    color: var(--white);
+}
+.access__repo:hover{
     color: var(--white);
 }
 .access {

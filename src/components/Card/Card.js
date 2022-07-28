@@ -5,11 +5,9 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Card.css'
 
 export default function Card() {
-    var imgUrl = '../../../../public/projects/perustars1.png';
-    // "url(" + "../../../../public/projects/perustars1.png" + ")"
     return (
         <>
-        <div className='card' style={{backgroundImage: `url(${imgUrl})`}}>
+        <div className='card' style={{backgroundImage: `url('https://i.postimg.cc/Hk3knfVQ/Screenshot-from-2022-07-27-22-33-04.png')`}}>
             <div className='card__info'>
                 <h3 className='card___title'>PeruStars</h3>
                 <div className='tools'>
@@ -18,14 +16,14 @@ export default function Card() {
                     <div className='chip'>MySql</div>
                 </div>
                 <div className='access'>
-                    <button className='access__web'>
+                    <a href='https:www.google.com' rel='noreferrer' target="_blank" className='access__web'>
                         <FontAwesomeIcon style={{marginRight: ".5rem"}} icon={faGlobe} />
                         Website
-                    </button>
-                    <button className='access__repo'>
+                    </a>
+                    <a href='https:www.google.com' rel='noreferrer' target="_blank" className='access__repo' >
                         <FontAwesomeIcon style={{marginRight: ".5rem"}} icon={faGithub} />
                         Repositorio
-                    </button>
+                    </a>
                 </div>
                 <div className='details'>
                     <button className='details__link'>
