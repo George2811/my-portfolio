@@ -6,10 +6,10 @@ import './About.css'
 export default function About(props) {
     return ( 
         <>
-        <section class="about__section">
-            <h2 class="about__title">Sobre mí</h2>
-            <div class="about__body">
-                <p class="about__description">
+        <section className='about__section'>
+            <h2 className='about__title'>Sobre mí</h2>
+            <div className='about__body'>
+                <p className='about__description'>
                 Hola! Soy Jorge Sánchez
                 <br></br>
                 <br></br>
@@ -18,16 +18,16 @@ export default function About(props) {
                 <br></br>
                 Me considero muy autodidacta, adaptable y colaborador, pues disfruto de aprender y recibir retroalimentación, lo que me ha permitido elaborar proyectos personales y grupales. 
                 </p>
-                <div class="about__information">
-                    <span class="about__span">
+                <div className='about__information'>
+                    <span class='about__span'>
                         <FontAwesomeIcon className="icons" icon={faLocationDot} />
                         Lima, Perú
                     </span>
-                    <span class="about__span">
+                    <span className='about__span'>
                         <FontAwesomeIcon className="icons" icon={faEnvelope}/>                        
                         jsanv.dev@gmail.com
                     </span>
-                    <button class="about__button">
+                    <button className='about__button'>
                         <FontAwesomeIcon icon={faFileArrowDown}/>
                         <span>Descargar CV</span>
                     </button>

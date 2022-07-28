@@ -1,0 +1,71 @@
+.card {
+    /*background-image: url('../../../../public/projects/perustars1.png');*/
+    width: 35rem;
+    height: 18rem;
+    background-size: cover;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px rgba(3, 32, 51, .8);
+}
+.card__info {
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2rem;
+    background: rgba(0, 0, 0, .6);
+    opacity: 0;
+    transition: .5s;
+}
+.card__info:hover {
+    opacity: 1;
+}
+.card___title {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--lightBlue);
+    text-align: start;
+}
+.chip, .access__web, .access__repo, .details__link {
+    width: fit-content;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin-right: .5rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.chip {
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.access__web {
+    background-color: var(--lightBlue);
+}
+.access__repo {
+    background-color: var(--black);
+    color: var(--white);
+}
+.access {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details {
+    text-align: end;
+}
+.details__link {
+    background-color: var(--black);
+    color: var(--white);
+    transition: all 0.5s ease;
+}
+.access__web:hover, .access__repo:hover, .details__link:hover {
+    cursor: pointer;    
+    filter: brightness(1.3);
+}

@@ -12,7 +12,7 @@
 }
 .home__background {
     background-color: #8e8e8e;
-    background-image: url(/public/bg_1080.jpg);
+    background-image: url(/src/assets/bg_1080.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,6 @@
 @media (max-width: 767px) {
 
     .home__background {
-      background-image: url(/public/bg_1080.jpg);
       background-attachment: fixed;
       background-size: cover;
       background-position: center;

@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillIcon from './SkillIcon/SkillIcon';
+import SkillIcon from '../SkillIcon/SkillIcon';
 import './Skills.css'
 
 export default function Skills(){

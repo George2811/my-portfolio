@@ -1,0 +1,17 @@
+.portfolio__section {
+    width: 70%;
+    height: 30rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio__title {
+    text-align: start;
+    margin: 3rem 0;
+    width: 100%;
+}
+.portfolio__description {
+    text-align: start;
+    width: 100%;
+}
