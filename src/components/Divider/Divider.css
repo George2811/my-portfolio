@@ -1,0 +1,11 @@
+.divider {
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+}
+hr {
+    width: 30%;
+    padding: 2px;
+    border: none;
+    border-radius: 2rem;
+}

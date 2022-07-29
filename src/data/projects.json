@@ -4,10 +4,18 @@
             "name": "PeruStars",
             "img_bg": "https://i.postimg.cc/Hk3knfVQ/Screenshot-from-2022-07-27-22-33-04.png",
             "technologies": [
-
+                {
+                    "tech_name": "Vue.js"
+                },
+                {
+                    "tech_name": ".Net Core"
+                },
+                {
+                    "tech_name": "MySql"
+                }
             ],
-            "website": "",
-            "github": "",
+            "website": "https://peru-stars.web.app/",
+            "github": "https://github.com/George2811/web-apps-wx51",
             "details": true,
             "description": "",
             "imgs": [

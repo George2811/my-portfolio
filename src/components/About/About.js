@@ -19,7 +19,7 @@ export default function About(props) {
                 Me considero muy autodidacta, adaptable y colaborador, pues disfruto de aprender y recibir retroalimentación, lo que me ha permitido elaborar proyectos personales y grupales. 
                 </p>
                 <div className='about__information'>
-                    <span class='about__span'>
+                    <span className='about__span'>
                         <FontAwesomeIcon className="icons" icon={faLocationDot} />
                         Lima, Perú
                     </span>

@@ -1,6 +1,5 @@
 .portfolio__section {
-    width: 70%;
-    height: 80rem;
+    max-height: fit-content;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -22,8 +21,6 @@
     flex-direction: column;
     position: relative;
     width: 100%;
-    height: 40rem;
-    border: 1px solid rgba(0, 0, 0, 0.274);
 }
 
 .bloc-tabs {
@@ -39,7 +36,7 @@
     box-sizing: content-box;
     position: relative;
     border-radius: 2rem;
-    margin: 1rem 3rem;
+    margin: 3rem 3%;
 }
 .active-tabs{
     background-color: var(--darkBlue);
@@ -55,5 +52,7 @@
     display: none;
 }
 .active-content {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

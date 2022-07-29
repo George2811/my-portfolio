@@ -7,10 +7,10 @@ import './Contact.css'
 export default function Contact(){
     return(
         <>
-        <section class="contact__section">
-            <h2 class="contact__title">Trabajemos juntos</h2>
-            <p class="contact__description">Es genial afrontar nuevos retos 😀</p>  
-            <div class="contact__set">
+        <section className="contact__section">
+            <h2 className="contact__title">Trabajemos juntos</h2>
+            <p className="contact__description">Es genial afrontar nuevos retos 😀</p>  
+            <div className="contact__set">
                 <FontAwesomeIcon className="contact__icon" icon={faEnvelope} />
                 <FontAwesomeIcon className="contact__icon" icon={faLinkedin} />
                 <FontAwesomeIcon className="contact__icon" icon={faGithub} />

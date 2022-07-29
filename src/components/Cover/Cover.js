@@ -5,12 +5,12 @@ export default function Cover(props) {
 
     return(
         <>
-        <section id="home" class="home">
-            <div class="home__background"></div>
-            <div class="home__description">
-                <span class="home__title--primary">Hola!</span>
-                <h1 class="home__title">Soy Jorge Sánchez</h1>
-                <span class="home__title--secondary">Software Developer</span>
+        <section id="home" className="home">
+            <div className="home__background"></div>
+            <div className="home__description">
+                <span className="home__title--primary">Hola!</span>
+                <h1 className="home__title">Soy Jorge Sánchez</h1>
+                <span className="home__title--secondary">Software Developer</span>
             </div>
         </section>
         </>

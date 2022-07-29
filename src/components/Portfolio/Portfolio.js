@@ -11,10 +11,9 @@ export default function Portfolio(){
 
     return (
         <>
-        <section class="portfolio__section">
-            <h2 class="portfolio__title">Portafolio</h2>
-            <p class="portfolio__description">En el 2019 comencé a realizar proyectos a nivel personal, y también participe en grandes proyectos grupales que me permitieron reforzar y adquirir nuevos conocimientos.</p>
-            <Card></Card>
+        <section className='portfolio__section'>
+            <h2 className='portfolio__title'>Portafolio</h2>
+            <p className='portfolio__description'>En el 2019 comencé a realizar proyectos a nivel personal, y también participe en grandes proyectos grupales que me permitieron reforzar y adquirir nuevos conocimientos.</p>
             <div className='container__tabs'>
                 <div className='bloc__tabs'>
                     <button className={toggle === 1 ? "tabs active-tabs" : "tabs"} onClick={()=> toggleTab(1)}>Top</button>
@@ -26,13 +25,7 @@ export default function Portfolio(){
                 </div>
                 <div className='content__tabs'>
                     <div className={toggle === 1 ? "content  active-content" : "content"}>
-                        <h2>Content 1</h2>
-                        <hr />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-                            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-                            vel voluptatum?
-                        </p>
+                        <Card name='PeruStars'></Card>
                     </div>
 
                     <div className={toggle === 2 ? "content  active-content" : "content"}>

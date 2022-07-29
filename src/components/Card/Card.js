@@ -4,12 +4,12 @@ import { faGlobe, faPlus } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Card.css'
 
-export default function Card() {
+export default function Card(props) {
     return (
         <>
         <div className='card' style={{backgroundImage: `url('https://i.postimg.cc/Hk3knfVQ/Screenshot-from-2022-07-27-22-33-04.png')`}}>
             <div className='card__info'>
-                <h3 className='card___title'>PeruStars</h3>
+                <h3 className='card___title'>{props.name}</h3>
                 <div className='tools'>
                     <div className='chip'>Vue</div>
                     <div className='chip'>.Net Core</div>
