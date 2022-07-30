@@ -1,18 +1,18 @@
 .home {
-    padding: 90px 0;
+    /* padding: 90px 0; */
     /*text-align: center;*/
-    background: white;
+    /* background: white; */
     min-height: 100vh;
     display: flex;
     padding: 30px;
     justify-content: center;
-    align-items: center;
     background: rgba(0, 0, 0, 0.7);
+    align-items: center;
     position: relative;
 }
 .home__background {
     background-color: #8e8e8e;
-    background-image: url(/src/assets/bg_1080.jpg);
+    background-image: url(/src/assets/bg_1080.webp);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -64,6 +64,7 @@
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
+      background-image: url(/src/assets/bg_responsive.webp);
     }
   
     section {

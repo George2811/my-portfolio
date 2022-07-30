@@ -5,26 +5,21 @@ export default function Navbar(props) {
 
     return(
         <>
-        <nav className="navbar">
-            <div className="container">
-                <div className="navbar__logo">
+        <nav>
+            <div className="menu">
+                <div className="logo">
                     <p className="navbar__title">                        
                         <span>JS</span>
                     </p>
                 </div>
-                <div className="navbar__menu">
+                <input type="checkbox" id="click"></input>
+                <label htmlFor='click' className="menu-btn">
                     <i className="fas fa-bars"></i>
-                </div>
-                <ul className="navbar__links">
-                    <li className="navbar__link" data-ref="about">
-                        <a href="#about">Info</a>
-                    </li>
-                    <li className="navbar__link" data-ref="portfolio">
-                        <a href="#portfolio">Portafolio</a>
-                    </li>
-                    <li className="navbar__link" data-ref="contact">
-                        <a href="#contact">Contacto</a>
-                    </li>
+                </label>
+                <ul>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>

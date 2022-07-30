@@ -3,7 +3,7 @@
     /*background-image: url('https://i.postimg.cc/15ZBqHzW/Screenshot-from-2022-07-27-22-33-04.png');*/
     width: 35rem;
     height: 18rem;
-    background-size: cover;
+    background-size: 100% 100%;
     border-radius: 2rem;
     box-shadow: 2px 2px 8px rgba(3, 32, 51, .8);
     margin-bottom: 2rem;

@@ -6,7 +6,7 @@ import './About.css'
 export default function About(props) {
     return ( 
         <>
-        <section className='about__section'>
+        <section className='about__section' id='info'>
             <h2 className='about__title'>Sobre mí</h2>
             <div className='about__body'>
                 <p className='about__description'>

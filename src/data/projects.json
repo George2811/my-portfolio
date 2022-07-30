@@ -3,7 +3,9 @@
         {
             "name": "PeruStars",
             "img_bg": "https://i.postimg.cc/Hk3knfVQ/Screenshot-from-2022-07-27-22-33-04.png",
-            "technologies": [
+            "is_top": true,
+            "category": "Web",
+            "preview_technologies": [
                 {
                     "tech_name": "Vue.js"
                 },
@@ -14,12 +16,555 @@
                     "tech_name": "MySql"
                 }
             ],
+            "technologies": [
+                {
+                    "tech_name": "Vue.js"
+                },
+                {
+                    "tech_name": "Vuetify"
+                },
+                {
+                    "tech_name": ".Net Core"
+                },
+                {
+                    "tech_name": "MySql"
+                }
+            ],
             "website": "https://peru-stars.web.app/",
             "github": "https://github.com/George2811/web-apps-wx51",
-            "details": true,
+            "description": "Esta solución nace como una propuesta que busca facilitar la promoción artística. Además, busca facilitar la información acerca de eventos y proyectos artísticos, para que los aficionados al arte, encuentren y compartan en un sola plataforma el arte que les apasiona.<br/>Junto con un grupo de amigos desarrollamos esta iniciativa que involucró un proceso de análisis, diseño, implementación y testing.",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/Hk3knfVQ/Screenshot-from-2022-07-27-22-33-04.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/CLqdQDNd/Screenshot-from-2022-07-29-11-25-50.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/kgPD341s/Screenshot-from-2022-07-29-11-28-57.png"
+                }
+            ]
+        },
+        {
+            "name": "MarvelApp",
+            "img_bg": "https://i.postimg.cc/Hs6fw7QP/Screenshot-from-2022-07-29-11-20-58.png",
+            "is_top": true,
+            "category": "Web",
+            "preview_technologies": [
+                {
+                    "tech_name": "React"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "React"
+                },
+                {
+                    "tech_name": "Material-UI"
+                }
+            ],
+            "website": "https://wiki-marvel-webapp.web.app/",
+            "github": "https://github.com/George2811/webapp-marvel",
+            "description": "Una Wiki sobre Marvel, aquí encontrarás información sobre comics, super heroes y sus super poderes. La app utiliza la Api oficial de Marvel.",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/Hs6fw7QP/Screenshot-from-2022-07-29-11-20-58.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/ncFy91QD/Screenshot-from-2022-07-29-11-21-36.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/j5VVW0zx/Screenshot-from-2022-07-29-11-22-06.png"
+                }
+            ]
+        },
+        {
+            "name": "EFactura",
+            "img_bg": "https://i.postimg.cc/DfcfSTgf/Screenshot-from-2022-07-29-11-35-31.png",
+            "is_top": true,
+            "category": "Web",
+            "preview_technologies": [
+                {
+                    "tech_name": "Vue.js"
+                },
+                {
+                    "tech_name": "SpringBoot"
+                },
+                {
+                    "tech_name": "Mysql"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Vue.js"
+                },
+                {
+                    "tech_name": "Vuetify"
+                },
+                {
+                    "tech_name": "SpringBoot"
+                },
+                {
+                    "tech_name": "Mysql"
+                },
+                {
+                    "tech_name": "Firebase"
+                }
+            ],
+            "website": "https://webapp-efactura.web.app/",
+            "github": "https://github.com/George2811/web-efactura",
+            "description": "Con el desarrollo de este proyecto, se busca realizar calculos financieros referentes a la administración de carteras de facturas mediante la implementación de una aplicación web. Se hicieron uso de distintos instrumentos financieros, como tasas de interés, teorías de descuento, etc. Ello con el fin de permitir al usuario optar por la mejor alternativa de inversión y poder administrar los cálculos eficazmente. La apliación permite registrar facturas y calcular la TCEA de la misma.",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/DfcfSTgf/Screenshot-from-2022-07-29-11-35-31.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/P51dknPk/Screenshot-from-2022-07-29-11-42-38.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/hjW4d46v/Screenshot-from-2022-07-29-11-38-52.png"
+                }
+            ]
+        },
+        {
+            "name": "TicTacToe",
+            "img_bg": "https://i.postimg.cc/nrpM5K4q/Screenshot-from-2022-07-29-11-51-47.png",
+            "is_top": true,
+            "category": "Web",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "JavaScript"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "JavaScript"
+                }
+            ],
+            "website": "https://george2811.github.io/TicTacToe/",
+            "github": "https://github.com/George2811/TicTacToe",
+            "description": "Uno de mis primeros proyectos :)<br/> Desarrolle un pequeño algoritmo para simular el famoso juego TicTacToe. Ingresa tu nombre y desafía a la PC",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/nrpM5K4q/Screenshot-from-2022-07-29-11-51-47.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/XqLX0ZLm/Screenshot-from-2022-07-29-11-52-07.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/zBnV02gJ/Screenshot-from-2022-07-29-11-52-16.png"
+                }
+            ]
+        },
+        {
+            "name": "Web BSale",
+            "img_bg": "https://i.postimg.cc/02F6KXWW/Screenshot-from-2022-07-29-20-09-52.png",
+            "is_top": false,
+            "category": "Web",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "JavaScript"
+                },
+                {
+                    "tech_name": "SpringBoot"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "JavaScript"
+                },
+                {
+                    "tech_name": "SpringBoot"
+                }
+            ],
+            "website": "https://webapp-bsale.netlify.app/",
+            "github": "https://github.com/George2811/webapp-bsale",
             "description": "",
             "imgs": [
-
+                {
+                    "img": "https://i.postimg.cc/02F6KXWW/Screenshot-from-2022-07-29-20-09-52.png"
+                }
+            ]
+        },
+        {
+            "name": "Basic Calculator",
+            "img_bg": "https://i.postimg.cc/J07sQ0sr/Screenshot-from-2022-07-29-19-02-18.png",
+            "is_top": false,
+            "category": "Web",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "JavaScript"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "JavaScript"
+                }
+            ],
+            "website": "https://george2811.github.io/Basic-Calculator/",
+            "github": "https://github.com/George2811/Basic-Calculator",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/J07sQ0sr/Screenshot-from-2022-07-29-19-02-18.png"
+                }
+            ]
+        },
+        {
+            "name": "Quiz App",
+            "img_bg": "https://i.postimg.cc/htxL0Zjj/Screenshot-from-2022-07-29-22-55-07.png",
+            "is_top": false,
+            "category": "Mobile",
+            "preview_technologies": [
+                {
+                    "tech_name": "Kotlin"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Kotlin"
+                },
+                {
+                    "tech_name": "Android"
+                }
+            ],
+            "website": "",
+            "github": "https://github.com/George2811/my-quizapp",
+            "description": "Una app de preguntas sobre las banderas de los países. Esto lo hice como ejercicio durante mi aprendizaje de aplicaciones android.",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/htxL0Zjj/Screenshot-from-2022-07-29-22-55-07.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/xjx3jbh0/Screenshot-from-2022-07-29-22-55-21.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/FKV0Mf0X/Screenshot-from-2022-07-29-22-55-32.png"
+                }
+            ]
+        },
+        {
+            "name": "PeruStars",
+            "img_bg": "https://i.postimg.cc/DzTqpQJc/Screenshot-from-2022-07-29-22-55-50.png",
+            "is_top": false,
+            "category": "Mobile",
+            "preview_technologies": [
+                {
+                    "tech_name": "Flutter"
+                },
+                {
+                    "tech_name": ".Net Core"
+                },
+                {
+                    "tech_name": "MySql"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Flutter"
+                },
+                {
+                    "tech_name": ".Net Core"
+                },
+                {
+                    "tech_name": "MySql"
+                }
+            ],
+            "website": "",
+            "github": "https://github.com/ULTIMATEUTEAM/PeruStarsFlutter/tree/develop",
+            "description": "Esta es la versión para mobiles de Perustars, y consume el mismo backend que PeruStars Web.",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/DzTqpQJc/Screenshot-from-2022-07-29-22-55-50.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/qq5s19yt/Screenshot-from-2022-07-29-22-56-01.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/8PxdMgT9/Screenshot-from-2022-07-29-22-56-11.png"
+                }
+            ]
+        },
+        {
+            "name": "LP PeruStars",
+            "img_bg": "https://i.postimg.cc/rmYkK3VQ/Screenshot-from-2022-07-29-22-03-11.png",
+            "is_top": false,
+            "category": "LP",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "Bootstrap"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "Bootstrap"
+                }
+            ],
+            "website": "https://george2811.github.io/LandingPagePeruStars/",
+            "github": "https://github.com/George2811/LandingPagePeruStars",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/rmYkK3VQ/Screenshot-from-2022-07-29-22-03-11.png"
+                }
+            ]
+        },
+        {
+            "name": "Baljeet",
+            "img_bg": "https://i.postimg.cc/mrGt8zG7/Screenshot-from-2022-07-29-20-07-44.png",
+            "is_top": false,
+            "category": "LP",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "Bootstrap"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "Bootstrap"
+                }
+            ],
+            "website": "https://baljeet.netlify.app/",
+            "github": "https://github.com/George2811/LandingPagePeruStars",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/mrGt8zG7/Screenshot-from-2022-07-29-20-07-44.png"
+                }
+            ]
+        },
+        {
+            "name": "Mali.pe",
+            "img_bg": "https://i.postimg.cc/hjGn4cBX/Screenshot-from-2022-07-29-22-02-34.png",
+            "is_top": false,
+            "category": "LP",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "Bootstrap"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "Bootstrap"
+                }
+            ],
+            "website": "https://george2811.github.io/mali-lp/",
+            "github": "https://github.com/George2811/mali-lp",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/hjGn4cBX/Screenshot-from-2022-07-29-22-02-34.png"
+                }
+            ]
+        },
+        {
+            "name": "Prezly",
+            "img_bg": "https://i.postimg.cc/TP0GXhZ8/Screenshot-from-2022-07-29-22-01-43.png",
+            "is_top": false,
+            "category": "LP",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "SCSS"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                },
+                {
+                    "tech_name": "SCSS"
+                }
+            ],
+            "website": "https://george2811.github.io/prezly-landing-page/",
+            "github": "https://github.com/George2811/prezly-landing-page",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/TP0GXhZ8/Screenshot-from-2022-07-29-22-01-43.png"
+                }
+            ]
+        },
+        {
+            "name": "Ultimate Team",
+            "img_bg": "https://i.postimg.cc/Xv4G8Gwt/Screenshot-from-2022-07-29-22-10-10.png",
+            "is_top": false,
+            "category": "LP",
+            "preview_technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "HTML"
+                },
+                {
+                    "tech_name": "CSS"
+                }
+            ],
+            "website": "https://george2811.github.io/landing-page-UltimateTeam/",
+            "github": "https://github.com/George2811/landing-page-UltimateTeam/tree/develop",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/Xv4G8Gwt/Screenshot-from-2022-07-29-22-10-10.png"
+                }
+            ]
+        },
+        {
+            "name": "PeruStars",
+            "img_bg": "https://i.postimg.cc/wBbzvMQS/Screenshot-from-2022-07-29-22-20-34.png",
+            "is_top": false,
+            "category": "Designs",
+            "preview_technologies": [
+                {
+                    "tech_name": "Figma"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Figma"
+                }
+            ],
+            "website": "https://www.figma.com/proto/K9PGsHBBgIISznt7ZH1TcS/PeruStars-Wireframes?node-id=15%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A4",
+            "github": "",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/wBbzvMQS/Screenshot-from-2022-07-29-22-20-34.png"
+                }
+            ]
+        },
+        {
+            "name": "CotizaFacil",
+            "img_bg": "https://i.postimg.cc/htNWW64B/Screenshot-from-2022-07-29-22-27-04.png",
+            "is_top": false,
+            "category": "Designs",
+            "preview_technologies": [
+                {
+                    "tech_name": "Figma"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Figma"
+                }
+            ],
+            "website": "https://www.figma.com/proto/PZTfg2TJgdsPgBkZG5xct1/CotizaFacil?node-id=105%3A177&scaling=scale-down&page-id=105%3A176&starting-point-node-id=105%3A177",
+            "github": "",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/htNWW64B/Screenshot-from-2022-07-29-22-27-04.png"
+                }
+            ]
+        },
+        {
+            "name": "PeruGuide",
+            "img_bg": "https://i.postimg.cc/VNMyYg5b/Screenshot-from-2022-07-29-22-25-36.png",
+            "is_top": false,
+            "category": "Designs",
+            "preview_technologies": [
+                {
+                    "tech_name": "Figma"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Figma"
+                }
+            ],
+            "website": "https://www.figma.com/proto/mRHkkayzNHgClsgy11qQHq/Peru-Guide?scaling=scale-down&page-id=0%3A1&starting-point-node-id=18%3A47&node-id=18%3A47",
+            "github": "",
+            "description": "",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/VNMyYg5b/Screenshot-from-2022-07-29-22-25-36.png"
+                }
             ]
         }
     ]
