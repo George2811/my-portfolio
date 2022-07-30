@@ -6,6 +6,9 @@ nav{
     padding: 12px 0;
     z-index: 12;
 }
+.bg__dark {
+    background: rgba(0, 0, 0, 0.9);
+}
 nav .menu{
     max-width: 1250px;
     margin: auto;
@@ -83,10 +86,10 @@ input[type="checkbox"]{
     }
     nav .menu ul{
         position: fixed;
-        top: 48px;
+        top: 39px;
         left: -100%;
         background: var(--black);
-        height: 90vh;
+        height: 98vh;
         width: 100%;
         text-align: center;
         display: block;
@@ -115,7 +118,6 @@ input[type="checkbox"]{
     }
     nav .menu ul li a:hover{
         background: none;
-    
         font-weight: 700;
     }
 }

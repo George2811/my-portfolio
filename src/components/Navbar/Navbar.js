@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css'
 
 export default function Navbar(props) {
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        const getScroll = () => setScrollY(window.pageYOffset);
+        window.addEventListener("scroll", getScroll);
+    });
 
     return(
         <>
-        <nav>
+        <nav className={scrollY > 650 ? 'bg__dark': 'none'}>
             <div className="menu">
                 <div className="logo">
                     <p className="navbar__title">                        
