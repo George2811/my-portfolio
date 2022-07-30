@@ -14,7 +14,7 @@ export default function Portfolio(){
 
     return (
         <>
-        <section className='portfolio__section'>
+        <section className='portfolio__section' id='portfolio'>
             <h2 className='portfolio__title'>Portafolio</h2>
             <p className='portfolio__description'>En el 2019 comencé a realizar proyectos a nivel personal, y también participe en grandes proyectos grupales que me permitieron reforzar y adquirir nuevos conocimientos.</p>
             <div className='container__tabs'>

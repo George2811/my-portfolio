@@ -41,6 +41,7 @@
 .chip {
     background-color: var(--darkBlue);
     color: var(--white);
+    margin-bottom: .5rem;
 }
 .tools {
     display: flex;
@@ -77,4 +78,13 @@
 .access__web:hover, .access__repo:hover, .details__link:hover {
     cursor: pointer;    
     filter: brightness(1.3);
+}
+
+@media (max-width: 415px) {
+    .card {
+        height: 14rem;
+    }
+    .card__info {
+        padding: 1rem;
+    }
 }

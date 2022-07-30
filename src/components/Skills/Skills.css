@@ -19,3 +19,15 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem 6rem;
 }
+
+@media (max-width: 890px) {
+    .skills__section {
+        margin: 0 .5rem;
+    }
+    .skills__title {
+        margin: 1rem 0;
+    }
+    .skills__set {
+        gap: 0rem;
+    }
+}

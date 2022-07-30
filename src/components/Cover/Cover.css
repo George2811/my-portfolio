@@ -1,8 +1,5 @@
 .home {
-    /* padding: 90px 0; */
-    /*text-align: center;*/
-    /* background: white; */
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     padding: 30px;
     justify-content: center;
@@ -59,16 +56,19 @@
 }
 
 @media (max-width: 767px) {
+  .home {
+    background: rgba(0, 0, 0, 0.5);
+  }
 
-    .home__background {
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: center;
-      background-image: url(/src/assets/bg_responsive.webp);
-    }
-  
-    section {
-      padding: 20px 0;
-    }
+  .home__background {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/src/assets/bg_responsive.webp);
+  }
+
+  section {
+    padding: 20px 0;
+  }
   
 }

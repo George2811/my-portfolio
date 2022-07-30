@@ -56,3 +56,18 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+@media (max-width: 890px) {
+    .portfolio__section{
+        margin: 0 .5rem;
+    }
+    .portfolio__description {
+        text-align: justify;
+    }
+    .bloc__tabs {
+        margin: 2rem 0;
+    }
+    .tabs {
+        margin: 6px;
+    }
+}

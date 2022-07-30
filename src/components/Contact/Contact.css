@@ -20,4 +20,12 @@
 .contact__icon {
     font-size: 2.5rem;
     margin: 0 2rem;
+    color: var(--darkBlue);
+}
+
+@media (max-width: 890px) {
+    .contact__section {
+        margin: 0 .5rem;
+        height: 25rem;
+    }
 }

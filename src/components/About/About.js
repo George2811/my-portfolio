@@ -1,4 +1,5 @@
 import React from 'react';
+import cv from '../../data/cv.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faEnvelope, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 import './About.css'
@@ -27,10 +28,10 @@ export default function About(props) {
                         <FontAwesomeIcon className="icons" icon={faEnvelope}/>                        
                         jsanv.dev@gmail.com
                     </span>
-                    <button className='about__button'>
+                    <a href={cv} download='JorgeSanchez_CV.pdf' className='about__button'>
                         <FontAwesomeIcon icon={faFileArrowDown}/>
                         <span>Descargar CV</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
