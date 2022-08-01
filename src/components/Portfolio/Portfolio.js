@@ -65,8 +65,11 @@ export default function Portfolio(){
                         }
                     </div>
                     <div className={toggle === 6 ? "content  active-content" : "content"}>
-                        <h2>Próximamente</h2>
-                        <hr />
+                        {
+                            projects.map((el, index)=>(
+                                el.category === 'Others' ? <Card key={index} el={el}></Card> : null
+                            ))
+                        }
                     </div>
                 </div>
             </div>

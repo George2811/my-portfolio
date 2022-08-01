@@ -566,6 +566,78 @@
                     "img": "https://i.postimg.cc/VNMyYg5b/Screenshot-from-2022-07-29-22-25-36.png"
                 }
             ]
+        },
+        {
+            "name": "MazeSolver",
+            "img_bg": "https://i.postimg.cc/W1M00gjH/Screenshot-from-2022-08-01-13-36-36.png",
+            "is_top": false,
+            "category": "Others",
+            "preview_technologies": [
+                {
+                    "tech_name": "Python"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Python"
+                },
+                {
+                    "tech_name": "Google Colaboratory"
+                },
+                {
+                    "tech_name": "Matplotlib"
+                }
+            ],
+            "website": "https://colab.research.google.com/drive/1eJYmPoxJdZXZQ7lUooN8ip0tc27O2HOk?usp=sharing",
+            "github": "",
+            "description": "Este pequeño programa resuelve laberintos registrados en una matriz. Se implementó con 2 algoritmos de fuerza bruta, uno usa pilas y el otro recursividad.  ",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/W1M00gjH/Screenshot-from-2022-08-01-13-36-36.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/sgFpBwFW/Screenshot-from-2022-08-01-13-38-13.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/qM6sMWF0/Screenshot-from-2022-08-01-13-38-40.png"
+                }
+            ]
+        },
+        {
+            "name": "Counterfeit Detector",
+            "img_bg": "https://i.postimg.cc/cL4YKmd1/Screenshot-from-2022-08-01-13-58-41.png",
+            "is_top": false,
+            "category": "Others",
+            "preview_technologies": [
+                {
+                    "tech_name": "Python"
+                }
+            ],
+            "technologies": [
+                {
+                    "tech_name": "Python"
+                },
+                {
+                    "tech_name": "Jupyter Notebook"
+                },
+                {
+                    "tech_name": "Matplotlib"
+                }
+            ],
+            "website": "",
+            "github": "https://github.com/George2811/K-Means-Algorithm",
+            "description": "Este es un proyecto de Data Science en el que queremos saber cómo detectar billetes falsos. Para ello, se utilizó el algoritmo K-Means, que nos permite agrupar objetos en k grupos en función de sus características.<br/>Para el cáculo usamos la varianza, la cual mide cuánto varía un billete del modelo original. No hay dos billetes iguales, ya que cada uno tiene códigos e identificadores únicos. Sin embargo, si la varianza es alta, se puede interpretar que esto no es lo único que ha cambiado.",
+            "imgs": [
+                {
+                    "img": "https://i.postimg.cc/cL4YKmd1/Screenshot-from-2022-08-01-13-58-41.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/vHvfHjFS/Screenshot-from-2022-08-01-14-01-49.png"
+                },
+                {
+                    "img": "https://i.postimg.cc/P53D1wqW/Screenshot-from-2022-08-01-14-06-46.png"
+                }
+            ]
         }
     ]
 }
