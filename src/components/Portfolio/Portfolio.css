@@ -71,3 +71,22 @@
         margin: 6px;
     }
 }
+
+@media (max-width: 890px) {
+    .active-content {
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .active-content .card{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        margin-right: 8px;
+        text-decoration: none;
+    }
+
+
+}

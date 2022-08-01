@@ -19,7 +19,8 @@
     right: 1rem;
     border: none;
     outline: none;
-    color: gray;
+    color: rgb(165, 165, 165);
+    background-color: rgb(243, 243, 243);
     height: 3rem;
     width: 3rem;
     border-radius: 2rem;
@@ -27,7 +28,7 @@
 }
 .modal-close:hover {
     cursor: pointer;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(235, 235, 235);
     color: rgb(97, 97, 97);
     padding: .5rem;
 }
@@ -39,7 +40,7 @@
     overflow-y: auto;
     min-width: 280px;
     max-width: 1100px;
-    height: 70vh;
+    max-height: 90vh;
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -52,7 +53,6 @@
 .modal__images {
     margin: 2rem 0;
     width: 100%;
-    height: 30rem;
     display: flex;
     gap: 5px;
 }
@@ -70,6 +70,7 @@
 }
 .modal__description {
     text-align: justify;
+    white-space: initial;
 }
 .modal__subtitle {
     font-size: 25px;
@@ -78,5 +79,29 @@
 }
 
 @media (max-width: 415px) {
-
+    .modal-container {
+        min-height: fit-content;
+        max-height: 45rem;
+    }
+    .modal__images {
+        height: 11rem;
+        display: block;
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .modal__img {
+        height: 10rem;
+        width: 18rem;
+        display: inline-block;
+        text-align: center;
+        margin-right: 8px;
+        text-decoration: none;
+    }
+    .modal__description {
+        min-height: fit-content;
+        max-height: 9rem;
+        overflow: scroll;
+    }
 }

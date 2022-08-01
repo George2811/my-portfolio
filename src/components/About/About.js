@@ -29,8 +29,8 @@ export default function About(props) {
                         jsanv.dev@gmail.com
                     </span>
                     <a href={cv} download='JorgeSanchez_CV.pdf' className='about__button'>
-                        <FontAwesomeIcon icon={faFileArrowDown}/>
-                        <span>Descargar CV</span>
+                        <span className='btn__text'>Descargar CV</span>
+                        <FontAwesomeIcon className='btn__icon' icon={faFileArrowDown}/>
                     </a>
                 </div>
             </div>
