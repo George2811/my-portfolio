@@ -28,9 +28,12 @@ export default function About(props) {
                         <FontAwesomeIcon className="icons" icon={faEnvelope}/>                        
                         jsanv.dev@gmail.com
                     </span>
-                    <a href={cv} download='JorgeSanchez_CV.pdf' className='about__button'>
-                        <span className='btn__text'>Descargar CV</span>
-                        <FontAwesomeIcon className='btn__icon' icon={faFileArrowDown}/>
+                    <a href={cv} download='JorgeSanchez_CV.pdf' class="btn-slide">
+                        <span class="circle">
+                            <FontAwesomeIcon className='btn__icon' icon={faFileArrowDown}/>
+                        </span>
+                        <span class="btn__title">Descargar CV</span>
+                        <span class="btn__title-hover">Click aquí</span>
                     </a>
                 </div>
             </div>
