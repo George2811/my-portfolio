@@ -1,6 +1,4 @@
 .card {
-    /*background-image: url('/src/assets/projects/perustars1.png');*/
-    /*background-image: url('https://i.postimg.cc/15ZBqHzW/Screenshot-from-2022-07-27-22-33-04.png');*/
     width: 35rem;
     height: 18rem;
     background-size: 100% 100%;
@@ -88,6 +86,9 @@
 }
 
 @media (max-width: 1430px) {
+    .card___title {
+        font-size: 32px;
+    }
     .card {
         height: 14rem;
         width: 23rem;
@@ -98,6 +99,9 @@
 }
 
 @media (max-width: 415px) {
+    .card___title {
+        font-size: 28px;
+    }
     .card {
         width: 88vw;
     }
